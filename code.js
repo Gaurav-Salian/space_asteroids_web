@@ -57,10 +57,10 @@ function startGame(){
             clearInterval(intervalIdEnemy1);
             clearInterval(intervalIdEnemy2);
             clearInterval(intervalIdEnemy3);
-        
+            setTimeout(() => {
             alert(`GAME OVER! \nYOUR SCORE IS: ${score} \n DO SHARE FEEDBACKS WITH ME! \n \t a game by GAURAV`);
             location.reload(); // Reload page [new game]            
-           
+            },1000)
         }
 
         
